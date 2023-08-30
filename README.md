@@ -1,3 +1,4 @@
+This Project is all about Building a website resume for a web dev, you can contribute to this project if you see any need.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
