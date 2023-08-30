@@ -1,13 +1,8 @@
 import React from 'react'
 import './Nav.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faStar, faGears, faArrowDown, faFaceSmile} from '@fortawesome/free-solid-svg-icons';
-
-
-
-
-
-
+import {faStar, faGears} from '@fortawesome/free-solid-svg-icons';
+import Intro from './Intro';
 
 function Nav() {
   return (
@@ -41,22 +36,7 @@ function Nav() {
         </ol>
        </div>
     </nav>
-<div className='container'>
-  <img src='Imaes/picture-removebg-preview.png' alt='images'></img>
-  <div className='inside-container'>
-  <div className='button_con'>
-    <h4>Hi there   <FontAwesomeIcon icon={faFaceSmile} /></h4>
-  
-
-  </div>
-  <p className='para'>I am Emmanuel Peter,  A Web Developer.
- I Build modern web design, and there are fully responsive 
- </p>
-  <button>
-    <a href='#portfolio'>View Portfolio <FontAwesomeIcon icon={faArrowDown} /></a>
-    </button>
-  </div>
-</div>
+<Intro/>
     
 </header>
 <main>
