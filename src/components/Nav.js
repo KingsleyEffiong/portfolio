@@ -1,0 +1,107 @@
+import React from 'react'
+import './Nav.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faStar, faGears, faArrowDown, faFaceSmile} from '@fortawesome/free-solid-svg-icons';
+
+
+
+
+
+
+
+function Nav() {
+  return (
+    <>
+<header className='head'>
+
+    <nav className='nav'>
+      
+            <div className='logo'>
+     <a href='/'>
+                <h3>Emmanuel Peter</h3>
+                </a>
+            </div>
+       <div className='menu-item'>
+        <ol className='ol-list'>
+          <li className='list-item'>
+            <a href='#about'>
+              <h4>About</h4>
+            </a>
+          </li>
+          <li className='list-item'>
+            <a href='#portfolio'>
+              <h4>Portfolio</h4>
+            </a>
+          </li>
+          <li className='list-item'>
+            <a href='#contact'>
+              <h4>Contact</h4>
+            </a>
+          </li>
+        </ol>
+       </div>
+    </nav>
+<div className='container'>
+  <img src='Imaes/picture-removebg-preview.png' alt='images'></img>
+  <div className='inside-container'>
+  <div className='button_con'>
+    <h4>Hi there   <FontAwesomeIcon icon={faFaceSmile} /></h4>
+  
+
+  </div>
+  <p className='para'>I am Emmanuel Peter,  A Web Developer.
+ I Build modern web design, and there are fully responsive 
+ </p>
+  <button>
+    <a href='#portfolio'>View Portfolio <FontAwesomeIcon icon={faArrowDown} /></a>
+    </button>
+  </div>
+</div>
+    
+</header>
+<main>
+  <div className='container-fluid'>
+<h2 ><FontAwesomeIcon icon={faStar} className='star' /> OBJECTIVE</h2>
+<p id='content'>Ahighly skilled front-end developer with a B.Sc. in Physics, 
+specializing in HTML, CSS, and JavaScript. Proficient in 
+frameworks and libraries such as React.js, Node.js, and 
+Tailwind, with experience in database management using 
+Excel. Seeking a challenging position to utilize my 
+expertise in front-end development, problem-solving, and 
+collaboration to contribute to the success of a dynamic 
+software development team.</p>
+</div>
+ <h2><FontAwesomeIcon icon={faGears} className='icon' />  Skills and Expertise</h2>
+<ul>
+<div id='container1'><li>HTML</li></div>
+ <div id='container2'><li>CSS</li></div> 
+  <div id='container3'><li>CSS Frameworks</li></div>
+  <div id='container4'><li>Javascripts</li></div>
+
+</ul>
+<ul>
+<div id='container5'><li>React</li></div>
+  <div id='container6'><li>Node Js</li></div>
+  <div id='container7'><li>Git & Github</li></div>
+  <div id='container8'><li>Debugging</li></div>
+</ul>
+
+{/* <section id='portfolio'>
+ <h2>Projects</h2>
+
+<ul>
+  <li> <a href='https://etcivilcon.com/'>E&T Civil Construction</a></li>
+  <li><a href='https://chelsea24hrs.netlify.app/'>chelsea24/7</a></li>
+  <li><a href='https:/encyptonote.com/'>Encryptonote</a></li>
+
+</ul>
+
+
+</section> */}
+</main>
+</>
+
+  )
+}
+
+export default Nav
