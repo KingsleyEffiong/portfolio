@@ -17,6 +17,7 @@ expertise in front-end development, problem-solving, and
 collaboration to contribute to the success of a dynamic 
 software development team.</p>
 </div>
+<div className='container-fluid'>
  <h2><FontAwesomeIcon icon={faGears} className='icon' />  Skills and Expertise</h2>
 <ul>
 <div id='container1'><li>HTML</li></div>
@@ -31,7 +32,7 @@ software development team.</p>
   <div id='container7'><li>Git & Github</li></div>
   <div id='container8'><li>Debugging</li></div>
 </ul>
-
+</div>
 {/* <section id='portfolio'>
  <h2>Projects</h2>
 
