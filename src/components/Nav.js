@@ -12,7 +12,7 @@ function Nav() {
       
             <div className='logo'>
      <a href='/'>
-                <h3>Emmanuel Peter</h3>
+                <h4>Emmanuel Peter</h4>
                 </a>
             </div>
        <div className='menu-item'>
@@ -39,6 +39,7 @@ function Nav() {
     
 </header>
 <Main/>
+
 </>
 
   )
