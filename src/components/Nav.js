@@ -15,7 +15,7 @@ function Nav() {
                 <h4>Emmanuel Peter</h4>
                 </a>
             </div>
-       <div className='menu-item'>
+       {/* <div className='menu-item'>
         <ol className='ol-list'>
           <li className='list-item'>
             <a href='#about'>
@@ -33,7 +33,7 @@ function Nav() {
             </a>
           </li>
         </ol>
-       </div>
+       </div> */}
     </nav>
 <Intro/>
     

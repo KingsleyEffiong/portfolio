@@ -13,9 +13,9 @@ function Intro() {
   <p className='para'>I am Emmanuel Peter,  A Web Developer.
  I Build modern web design, and there are fully responsive 
  </p>
-  <button>
+  {/* <button>
     <a href='#portfolio'>View Portfolio <FontAwesomeIcon icon={faArrowDown} /></a>
-    </button>
+    </button> */}
   </div>
 </div>
     </>

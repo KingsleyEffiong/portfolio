@@ -30,133 +30,19 @@ function Main() {
     </div>
   </div>
 </div>
-<div id='content3-container'>
-  <h3>Proffesional experience</h3>
-  <div id='experience-container'>
-
-    <div className='experience-container-content'>
-    <h5>FRONT-END DEVELOPER </h5>
-    <h5>Monsta Pizza, NGO 1</h5>
-    <h5>2021</h5>
-    <h1 className='experience-font'>Description</h1>
-    <p>Ahighly skilled front-end developer with a B.Sc. in Physics, 
-specializing in HTML, CSS, and JavaScript. Proficient in 
-frameworks and libraries such as React.js, Node.js, and 
-Tailwind, with experience in database management using 
-Excel. Seeking a challenging position to utilize my 
-expertise in front-end development, problem-solving, and 
-collaboration to contribute to the success of a dynamic 
-software development team.
-</p>
-    </div>
-    <div className='experience-container-content'>
-    <h5>FRONT-END DEVELOPER </h5>
-    <h5>Encryptonote: www.encyptonote.com</h5>
-    <h5>2023</h5>
-    <h1 className='experience-font'>Description</h1>
-    <p>Ahighly skilled front-end developer with a B.Sc. in Physics, 
-specializing in HTML, CSS, and JavaScript. Proficient in 
-frameworks and libraries such as React.js, Node.js, and 
-Tailwind, with experience in database management using 
-Excel. Seeking a challenging position to utilize my 
-expertise in front-end development, problem-solving, and 
-collaboration to contribute to the success of a dynamic 
-software development team.
- </p>
-    </div>
-    <div className='experience-container-content'>
-    <h5>FRONT-END DEVELOPER </h5>
-    <h5>Chelsea24/7 Fan Page (Personal Project)</h5>
-    <h5>2022 - till date</h5>
-    <h1 className='experience-font'>Description</h1>
-    <p>Ahighly skilled front-end developer with a B.Sc. in Physics, 
-specializing in HTML, CSS, and JavaScript. Proficient in 
-frameworks and libraries such as React.js, Node.js, and 
-Tailwind, with experience in database management using 
-Excel. Seeking a challenging position to utilize my 
-expertise in front-end development, problem-solving, and 
-collaboration to contribute to the success of a dynamic 
-software development team.
-.</p>
-    </div>
-    <div className='experience-container-content'>
-    <h5>FRONT-END DEVELOPER </h5>
-    <h5>Barcelona Fan Page: www.barcarealfans.com (Personal Project)</h5>
-    <h5>2023</h5>
-    <h1 className='experience-font'>Description</h1>
-    <p>Ahighly skilled front-end developer with a B.Sc. in Physics, 
-specializing in HTML, CSS, and JavaScript. Proficient in 
-frameworks and libraries such as React.js, Node.js, and 
-Tailwind, with experience in database management using 
-Excel. Seeking a challenging position to utilize my 
-expertise in front-end development, problem-solving, and 
-collaboration to contribute to the success of a dynamic 
-software development team.
-</p>
-
-    </div>
-    <div className='experience-divider'>
-      
-      </div>
   </div>
-</div>
 
-<div id='content3-container'>
-  <h3>Education & Certification, Training & Courses</h3>
-  <div id='experience-container'>
-
-    <div className='experience-container-content'>
-    <h5>Education, Certification </h5>
-    <h5>B.Sc. in Physics - University of Cross River State (UniCross)</h5>
-    <h5>2016</h5>
-    <h1 className='experience-font'>Description</h1>
-    <p>Ahighly skilled front-end developer with a B.Sc. in Physics, 
-specializing in HTML, CSS, and JavaScript. Proficient in 
-frameworks and libraries such as React.js, Node.js, and 
-Tailwind, with experience in database management using 
-Excel. Seeking a challenging position to utilize my 
-expertise in front-end development, problem-solving, and 
-collaboration to contribute to the success of a dynamic 
-software development team.
-</p>
-    </div>
-    <div className='experience-container-content'>
-    <h5>CERTIFICATIONS AND TRAINING</h5>
-    <h5>Web Development, Udemy - Instructor: Dr. Angela Yu (Senior Developer)</h5>
-    <h5>2021</h5>
-    <h1 className='experience-font'>Description</h1>
-    <p>Ahighly skilled front-end developer with a B.Sc. in Physics, 
-specializing in HTML, CSS, and JavaScript. Proficient in 
-frameworks and libraries such as React.js, Node.js, and 
-Tailwind, with experience in database management using 
-Excel. Seeking a challenging position to utilize my 
-expertise in front-end development, problem-solving, and 
-collaboration to contribute to the success of a dynamic 
-software development team.
- </p>
-    </div>
-    <div className='experience-container-content'>
-    <h5>COURSES </h5>
-    <h5> HTML, CSS, JavaScript, Bootstrap, Document Object Model, React.JS</h5>
-    <h1 className='experience-font'>Description</h1>
-    <p>Ahighly skilled front-end developer with a B.Sc. in Physics, 
-specializing in HTML, CSS, and JavaScript. Proficient in 
-frameworks and libraries such as React.js, Node.js, and 
-Tailwind, with experience in database management using 
-Excel. Seeking a challenging position to utilize my 
-expertise in front-end development, problem-solving, and 
-collaboration to contribute to the success of a dynamic 
-software development team.
-.</p>
-    </div>
-    
-    <div className='experience-divider'>
-      
-      </div>
+  <div className='projects'>
+    <span>PROJECTS</span>
+    <ol>
+      <li><a href='https://etcivilcon.com'>E & T Civil Construction</a></li>
+      <li><a href='https://hopealiveclinic.com'>Hope Alive Clinic</a></li>
+      <li><a href='https://encyptonote.com'>Encryptonote</a></li>
+      <li><a href='https://barcarealfans.com'>barcarealfans</a></li>
+      <span>Current Projects</span>
+      <li>Hospital Management System - Under Development</li>
+    </ol>
   </div>
-</div>
-
-    </div>
     </>
   )
 }
